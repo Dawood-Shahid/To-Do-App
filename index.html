@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ToDo App</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1> ToDo App.</h1>
+        <div id="inputBody">
+            <section>
+                <input type="text" placeholder="Add new tasks..." id="newTask"> <br>
+                <input type="text" placeholder="Add tasks description..." id="taskDesc"> <br>
+            </section>
+            <div id="divAddButton">
+                <input type="button" value="Add Tasks" onclick="addTasks()" id="addTaskButton">
+            </div>    
+        <br><br>
+        </div>
+        <div>
+            <table style="width: 100%;" id="mytable">
+                <tr>
+                    <th>Tasks</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="ToDo.js"></script>
+    </body>
+</html>
